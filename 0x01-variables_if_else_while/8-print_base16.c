@@ -3,16 +3,19 @@
 /**
  * main - Entry point
  *
- * Return: Always 0(Success) 
+ * Return: Always 0(Success)
  */
 int main(void)
 {
-	int y;
+	auto int y;
+	auto int z;
 
-	for (y = 0; y < 16; y++)
-	{
-		putchar('0'+ y);
-	}
+	for (y = 48; y <= 57; y++)
+		putchar(y);
+
+	for (z = 97; z <= 102; z++)
+		putchar(z);
+
 	putchar('\n');
 
 	return (0);
