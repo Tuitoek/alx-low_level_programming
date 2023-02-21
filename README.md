@@ -1,2 +1,2 @@
-
-hello World C project
+##Nested loops and functions for C practise
+###### printf - prints characters
