@@ -6,16 +6,18 @@
  * Description: concanate two strings
  * @dest: string input to be appended to
  * @src: string input to append to
+ *
+ * Return: string dest concanated with src
  */
 char *_strcat(char *dest, char *src)
 {
-	int s,t;
-	
+	int s, t;
+
 	/* Find length of string dest*/
 	t = 0;
 	while (dest[t] != '\0')
 		t++;
-	
+
 	s = 0;
 	while (src[s] != '\0')
 	{
